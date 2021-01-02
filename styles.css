@@ -219,10 +219,10 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 2%;
+  bottom: 0%;
   border-radius: .5rem;
-  width: 295px;
+  width: 265px;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 
