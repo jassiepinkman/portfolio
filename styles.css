@@ -9,13 +9,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #30D599;
   --second-color: #fff;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fuente y typografy =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -162,7 +162,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--first-color)!important;
 }
 .nav__logo{
   color: var(--second-color);
@@ -181,7 +181,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--first-color)!important;
 }
 
 /*=== Show menu ===*/
@@ -217,7 +217,7 @@ img{
   color: var(--second-color);
 }
 .home__social-icon:hover{
-  color: var(--first-color);
+  color: var(--first-color)!important;
 }
 .home__img{
   position: absolute;
@@ -253,8 +253,8 @@ img{
   justify-self: center;
 }
 .about__img img{
-  width: 200px;
-  border-radius: .5rem;
+  width: 400px;
+  border-radius: .4rem;
 }
 
 /* ===== SKILLS =====*/
@@ -461,13 +461,14 @@ img{
   .contact__form{
     display: flex;
     justify-content: center;
+    margin-bottom: var(--mb-2);
   }
 
   .contact__container{
     width: 500px;
     background-color:  rgba(146,161,176,.15);
     justify-items: center;
-    padding: var(--mb-3) 0 var(--mb-4) 0;
+    padding: var(--mb-5) 0 var(--mb-4) 0;
     border: 0.5px solid wheat;
     border-radius: var(--mb-1);
   }
