@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="styles.css">
-
+        
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
+        
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        
+        <link rel="stylesheet" href="styles.css">
 
         <title>Jaskaran Singh</title>
     </head>
@@ -20,7 +20,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">JASS!E <span class="home__title-color">&&</span> Tea <span class="home__title-color">===</span> Code</a>
+                    <a href="#" class="nav__logo">JASS!E <span class="home__title-color"> && </span> Tea <span class="home__title-color">===</span> Code</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -43,9 +43,9 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Bonjour!<br>Myself <span class="home__title-color">Jaskaran :)</span><br>A Software <span class="home__title-color">Dev</span> <br>& <span class="home__title-color">Tech Enthusiast</span>.</h1>
+                    <h1 class="home__title">Bonjour!<br>Myself <span class="home__title-color">JASKARAN :)</span><br>A Software <span class="home__title-color">Dev</span> <br>& <span class="home__title-color">Tech Enthusiast</span>.</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <!-- <a href="#" class="button">Contact</a> -->
                 </div>
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/jaskaran-singh-a75323189/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
@@ -61,7 +61,7 @@
 
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+                <h2 class="section-title">About Me</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
@@ -69,7 +69,7 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">My name is Jaskaran Singh,</h2>
+                        <h2 class="about__subtitle">My name is <span class="home__title-color">Jaskaran Singh,</span></h2>
                         <p class="about__text">A Dev, Tech Enthusiast. Love learning new technologies, checking cool UI Designs. Love to talk to new people <3. Photography, Rough Sketching and DIY, that's also what i love to do. Currently working as a ReactJS Developer.</p>           
                     </div>                                   
                 </div>
@@ -141,15 +141,15 @@
                 <h2 class="section-title">Projects</h2>
 
                 <div class="work__container bd-grid">
-                    <h3 class="work__label">Facebook Clone Dark-Theme :</h3>
+                    <h5 class="work__label">Facebook Clone Dark-Theme :</h5>
                     <div class="work__img">
                         <a href="https://facebook-dark-by-jassie.netlify.app/" target="_blank"><img src="/images/fb-clone.png" alt=""></a>
                     </div>
-                    <h3 class="work__label">My Own Code Editor :</h3>
+                    <h5 class="work__label">My Own Code Editor :</h5>
                     <div class="work__img">
                         <a href="https://codeeditorbyjassie.netlify.app/" target="_blank"><img src="/images/code-editor.png" alt=""></a>
                     </div>
-                    <h3 class="work__label">A Simple Quizz App :</h3>
+                    <h5 class="work__label">A Simple Quizz App :</h5>
                     <div class="work__img">
                         <a href="https://quizz-app-jassie.netlify.app/" target="_blank"><img src="/images/quizz-app.png" alt=""></a>
                     </div>
@@ -163,23 +163,23 @@
                 <div class="contact__container bd-grid">
                     <form method="POST" action="https://formspree.io/f/xleooqeb" id="my-form">
                         <div class="form-group">
-                            <label for="exampleInputName">Full Name :</label>
+                            <label for="exampleInputName"><span class="home__title-color">Full Name :</span></label>
                             <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Full Name" required> 
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Email address :</label>
+                          <label for="exampleInputEmail1"><span class="home__title-color">Email Address :</span></label>
                           <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com" required>
                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputMyEmail">To :</label>
+                          <label for="exampleInputMyEmail"><span class="home__title-color">To :</span></label>
                           <input class="form-control" name="to" type="text" placeholder="jaskaranxformal@gmail.com" readonly>
                         </div>  
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message :</label>
+                            <label for="exampleFormControlTextarea1"><span class="home__title-color">Message :</span></label>
                             <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Message" rows="3" maxlength="300" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" style="background-color: #30D599; color: black" class="btn btn-primary">Submit</button>
                     </form>
                     <div id="contact-status" class="bd-grid"></div>
                 </div>
