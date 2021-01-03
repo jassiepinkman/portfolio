@@ -73,6 +73,7 @@ ul{
 a{
   text-decoration: none!important;
 }
+
 img{
   max-width: 100%;
   height: auto;
@@ -141,7 +142,9 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: #001;
+    /* background-color: #001; */
+    background: rgb(12,34,46);
+    background: linear-gradient(21deg, rgba(12,34,46,1) 5%, rgba(8,28,26,1) 15%, rgba(0,0,0,1) 54%);
     transition: .5s;
   }
 }
@@ -214,8 +217,26 @@ img{
   margin-bottom: 1%;
   margin-left: 3%;
   font-size: 2.5rem;
+}
+
+.color-linkedin{
+  color: #0e76a8;
+}
+
+.color-github{
   color: var(--second-color);
 }
+
+.color-insta{
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .home__social-icon:hover{
   color: var(--first-color)!important;
 }
@@ -372,7 +393,6 @@ img{
 }
 .footer__icon{
   font-size: 2rem;
-  color: #fff;
   margin: 0 var(--mb-2)
 }
 
